@@ -37,12 +37,10 @@ int main() {
     double width = x2 - x1;
 
     std::cout << std::fixed;
-    std::cout.precision(6);
-    std::cout << "f(x) = x*exp(-x^2)\n";
-    std::cout << "x_max = " << x0 << ", f_max = " << fmax << '\n';
-    std::cout << "H = f_max/2 = " << H << '\n';
+    std::cout.precision(3);
     std::cout << "x1 = " << x1 << ", f(x1) = " << f(x1) << '\n';
     std::cout << "x2 = " << x2 << ", f(x2) = " << f(x2) << '\n';
     std::cout << "x2 - x1 = " << width << '\n';
     return 0;
 }
+
