@@ -36,11 +36,11 @@ int main() {
     double x2 = right_root(H);
     double width = x2 - x1;
 
-    std::cout << std::fixed;
     std::cout.precision(3);
     std::cout << "x1 = " << x1 << ", f(x1) = " << f(x1) << '\n';
     std::cout << "x2 = " << x2 << ", f(x2) = " << f(x2) << '\n';
     std::cout << "x2 - x1 = " << width << '\n';
     return 0;
 }
+
 
